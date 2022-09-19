@@ -41,7 +41,6 @@ h6 {
   --secondary-bk-color: #f5f4fa;
   --bk-white-color: #ffffff;
   --bk-dark-color: #2f303a;
-  --button-bk-color: #f5f4fa;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -52,6 +51,12 @@ body {
   letter-spacing: 0.03em;
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
