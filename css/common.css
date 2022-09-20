@@ -1,15 +1,10 @@
 /*Обнуление*/
-html {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
 *,
 *::before,
 *::after {
-  padding: inherit;
-  margin: inherit;
-  border: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 a {
   text-decoration: none;
@@ -51,7 +46,7 @@ body {
   letter-spacing: 0.03em;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
 }
