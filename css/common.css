@@ -40,13 +40,13 @@ h6 {
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
-  background-color: var(--primary-bk-color);
+  background-color: var(--bk-white-color);
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.03em;
 }
 .container {
-  max-width: 1230px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }

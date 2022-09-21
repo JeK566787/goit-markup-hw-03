@@ -1,5 +1,11 @@
 .border-bottom {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+.hidden {
+  visibility: hidden;
+}
+.section {
+  padding: 94px 0;
 }
 /* ------------------------------header------------------------------------- */
 .header {
@@ -78,8 +84,8 @@
 
   color: var(--bk-white-color);
 
-  padding: 0 240px;
-  margin-bottom: 30px;
+  width: 969px;
+  margin: 0 auto 30px auto;
 }
 .hero-button {
   font: inherit;
@@ -102,16 +108,8 @@
   cursor: pointer;
 }
 /* ------------------------------------------advantages---------------------------------------- */
-.advantages,
-.occupations {
-  background-color: var(--primary-bk-color);
-}
-.advantages {
-  padding: 105px 0 95px 0;
-}
 .advantages-items {
   display: flex;
-  justify-content: space-between;
 }
 .advantages-item {
   width: 270px;
@@ -152,10 +150,9 @@
 
   margin-bottom: 50px;
 }
-/* -------------------------------------------taem----------------------------------------- */
+/* -------------------------------------------team----------------------------------------- */
 .team {
   background-color: var(--secondary-bk-color);
-  padding-bottom: 94px;
 }
 .team-cards {
   display: flex;
@@ -225,8 +222,6 @@
 /*-------------------------------- Портфоліо ----------------------------*/
 .portfolio {
   background-color: var(--bk-white-color);
-
-  padding: 94px 0;
 }
 
 .buttons {
@@ -262,8 +257,12 @@
   display: flex;
   flex-wrap: wrap;
 }
+.portf-card-text {
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
 .portfolio-card {
-  border: 1px solid #eeeeee;
   /* width: calc(100%-2*30px(60px-количество мардж. умнож. на значение))/3  -- длинна в процентах*/
   width: 370px;
 
