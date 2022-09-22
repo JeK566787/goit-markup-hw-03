@@ -1,6 +1,3 @@
-.border-bottom {
-  border-bottom: 1px solid #ececec;
-}
 .hidden {
   visibility: hidden;
 }
@@ -9,7 +6,7 @@
 }
 /* ------------------------------header------------------------------------- */
 .header {
-  background-color: var(--bk-white-color);
+  border-bottom: 1px solid #ececec;
 }
 .header-area {
   display: flex;
@@ -84,7 +81,7 @@
 
   color: var(--bk-white-color);
 
-  width: 969px;
+  width: 696px;
   margin: 0 auto 30px auto;
 }
 .hero-button {
@@ -220,14 +217,10 @@
   color: var(--bk-white-color);
 }
 /*-------------------------------- Портфоліо ----------------------------*/
-.portfolio {
-  background-color: var(--bk-white-color);
-}
-
 .buttons {
   display: flex;
   justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 .button-item:not(:first-child) {
   margin-left: 8px;
